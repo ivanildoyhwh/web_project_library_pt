@@ -28,21 +28,16 @@
 }
 
 .nav__logo {
-  width: 80px;
-  height: 58px;
+  width: 105px;
+  height: 39px;
 }
 
 .nav__links {
-  /* Redefina o estilo de listas padrão aqui */
   display: flex;
   column-gap: 20px;
-
-  margin-top: 0;
-  margin-bottom: 0;
-
-  padding-left: 0;
-
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav__link {
@@ -69,8 +64,7 @@
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .header__image {
@@ -132,7 +126,7 @@
   flex-wrap: wrap;
   gap: 40px;
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
 }
 
 .card {
@@ -165,7 +159,7 @@
 }
 
 .card__footer {
-  margin-top: auto;
+  margin: auto 0 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
@@ -251,36 +245,30 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 2px;
 }
 
 .person_name_feynman {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
   top: -30px;
-  left: 0;
+  left: 319px;
 }
 
 .person_name_burbidge {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
-  bottom: -5px;
+  bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
-  bottom: 18px;
+  bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
-  top: 78px;
+  top: 79px;
   left: 159px;
 }
 
